@@ -1,16 +1,17 @@
+# About this Repo
+
 [![Docker pulls](https://img.shields.io/docker/pulls/peru/ansible1.9.svg)](https://hub.docker.com/r/peru/ansible1.9/)
 [![Docker Build](https://img.shields.io/docker/automated/peru/ansible1.9.svg)](https://hub.docker.com/r/peru/ansible1.9/)
 
-# About this Repo
-
 This repository provides Dockerfile which provides Ansible 1.9 + few additional libraries.
- * https://hub.docker.com/r/peru/ansible1.9/
+
+* [https://hub.docker.com/r/peru/ansible1.9/](https://hub.docker.com/r/peru/ansible1.9/)
 
 ## Usage
 
 You can run it like this:
 
-```
+```bash
 ANSIBLE_VAULT_PASSWORD_FILE=${ANSIBLE_VAULT_PASSWORD_FILE:-"~/.ansible/vault.password"}
 
 DOCKER_PARAMETERS="
@@ -32,14 +33,13 @@ sudo docker $DOCKER_PARAMETERS ansible-playbook sites/cluster/site.yml --tags st
 
 Or something easier:
 
-```
+```bash
 docker run --interactive --rm --volume $PWD:/home/ansible/ansible_project:ro peru/ansible1.9 ansible-playbook --version
 ```
 
 ## License
 
 BSD
-
 
 ## Author Information
 

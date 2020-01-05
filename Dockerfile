@@ -1,6 +1,8 @@
 # Latest version of centos
 FROM centos:latest
 
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 # Update base image
 RUN yum -y update; yum clean all
 

@@ -7,7 +7,6 @@ on:
       - '**.md'
       - .github/workflows/markdown.yml
       - .markdownlint.yml
-      - .spelling
   push:
     branches:
       - master
@@ -15,7 +14,6 @@ on:
       - '**.md'
       - .github/workflows/markdown.yml
       - .markdownlint.yml
-      - .spelling
 
 jobs:
   markdownlint-check:

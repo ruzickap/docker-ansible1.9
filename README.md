@@ -43,4 +43,4 @@ BSD
 
 ## Author Information
 
-This repo was created in 2016 by <petr.ruzicka@gmail.com>
+This repo was created in 2016 by [petr.ruzicka@gmail.com](mailto:petr.ruzicka@gmail.com)

@@ -1,6 +1,5 @@
 # Latest version of centos
 FROM centos:latest
-MAINTAINER Petr Ruzicka <petr.ruzicka@gmail.com>
 
 # Update base image
 RUN yum -y update; yum clean all
